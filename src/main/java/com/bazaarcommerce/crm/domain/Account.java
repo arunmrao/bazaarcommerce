@@ -28,6 +28,6 @@ import java.io.Serializable;
  * @author ar366m
  */
 public interface Account extends Serializable, MultiTenantCloneable<Account> {
-    public String getName();
-    public void setName(String name);
+    String getName();
+    void setName(String name);
 }
